@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    height: 200px;
+    background-color: rebeccapurple;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app-title {
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 250%;
+}
+
+main {
+    padding: 2vw;
+    min-height: 200px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button.animal-button {
+    border: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    margin-bottom: 8px;
+    font-weight: bolder;
+    border-radius: 50rem;
+    background-color:navajowhite
+}
+
+section#animal-details {
+    min-height: 200px;
+    background-color: navajowhite;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#animal-detail-name {
+    padding: 16px;
+    text-align: center;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+#animal-detail-image {
+    height: 250px;
+    padding: 24px;
+}
+
+#animal-detail-votes {
+    display: flex;
+}
+
+#animal-detail-votes .animal-vote-button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 50rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#animal-detail-votes #animal-vote-count {
+    height: 42px;
+    font-size: 24px;
+    min-width: 42px;
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+}

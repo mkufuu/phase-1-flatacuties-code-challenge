@@ -9,7 +9,46 @@ Welcome to the Flatacuties project, which is a demonstration of what I have lear
 To run this application:
 
 - Clone the repository from [mkufuu/phase-1-flatacuties](https://github.com/mkufuu/phase-1-flatacuties-code-challenge.git). If you see a 404, in the page when trying to clone, kindly ask me to add you to the repository as a contributor.
-- Run `npm install` to install all necessayr packages for the applction to work.
+- Run `npm install` to install all necessary packages for the applction to work.
+- Ensure that you have the json data as below:
+
+```json
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Mr. Cute",
+      "image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif",
+      "votes": 0
+    },
+    {
+      "id": 2,
+      "name": "Mx. Monkey",
+      "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
+      "votes": 0
+    },
+    {
+      "id": 3,
+      "name": "Ms. Zebra",
+      "image": "https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif",
+      "votes": 0
+    },
+    {
+      "id": 4,
+      "name": "Dr. Lion",
+      "image": "http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif",
+      "votes": 0
+    },
+    {
+      "id": 5,
+      "name": "Mme. Panda",
+      "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif",
+      "votes": 0
+    }
+  ]
+}
+```
+
 - After everything is installed, run the command `json-server -w db.json` while in the project directory / folder.
 - Open the `index.html` file in the browser, and start interacting with the application
 
